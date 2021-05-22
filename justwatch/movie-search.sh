@@ -2,15 +2,15 @@
 
 # Required parameters:
 # @raycast.schemaVersion 1
-# @raycast.title Search movies
+# @raycast.title Movie
 # @raycast.mode silent
 # @raycast.packageName JustWatch
-#
+
 # Optional parameters:
 # @raycast.icon images/justwatch.ico
 # @raycast.needsConfirmation false
-# @raycast.argument1 { "type": "text", "placeholder": "Movie Title", "optional": true }
-#
+# @raycast.argument1 { "type": "text", "placeholder": "Movie Title", "optional": true, "percentEncoded": true }
+
 # Documentation:
 # @raycast.description Search movies on justwatch.com
 # @raycast.author Pranjal Gore
